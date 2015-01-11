@@ -1,0 +1,169 @@
+a {
+  color: #0a74c5;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  color: #a8d2f1;
+  background: black url('../images/bg.jpg?1') no-repeat top center;
+}
+
+h1, h2 {
+   color: #328bcf;
+}
+
+h1 a {
+  color: #328bcf;
+}
+
+h3 {
+  color: white;
+}
+
+#langmenu {
+  background: url('../images/langmenu.gif?1') no-repeat top left;
+  /*border-bottom: 83px solid #053c66;*/
+}
+
+      
+      #langmenu li a.active {
+        color: white;
+      }
+
+
+#mainmenu a {
+  color: #6b6b6b;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#mainmenu a:hover {
+  text-decoration: underline;
+}
+
+#mainmenu a.active {
+  color: white;
+}
+
+#header {
+  background: #022947;
+  font-weight: bold;
+}
+
+
+.newstable td.first {
+  color: #328bcf;
+}
+
+.newstable a {
+  color: #a8d2f1;
+}
+
+
+#container {
+  background: url('../images/shadow.png?1') repeat-x left bottom;
+}
+
+* html #container {
+  background: none;
+  border-bottom: 3px solid #030f19;
+}
+
+.blog {
+  background: url('../images/shadow.png?1') repeat-x left bottom;
+}
+
+* html .blog {
+  background: none;
+  border-bottom: 3px solid #030f19;
+}
+
+.blog-last {
+  background: none;
+}
+
+.blog span.date {
+  color: #328bcf;
+}
+
+* html .blog-last {
+  border-bottom: none;
+}
+
+.textbox {
+  background: #a8d2f1 url('../images/textbox.gif?1') repeat-x;
+}
+
+.comments table td {
+  border-bottom: 1px solid #020e18;
+}
+
+.comments table td.first {
+  color: #328bcf;
+  border-bottom: none;
+}
+
+#commentform {
+  background: #030b13;
+}
+
+#commentform h3 {
+  color: #328bcf;
+}
+
+.textbox {
+  border: none;
+  color: #000101;
+}
+
+.submit {
+  background: #010203 url('../images/submit.gif?1') repeat-x;
+  color: #a8d2f1;
+  border-top: none;
+  border-bottom: none;
+  border-left: 1px solid #010203;
+  border-right: 1px solid #010203;
+}
+
+#edicy a {
+  color: #328bcf;
+}
+#search {
+background: #053C66; 
+height: 50px;
+padding-top: 25px;
+text-align: center;
+}
+
+#search input#onpage_search {
+border: 2px solid #328bcf; 
+height: 19px; 
+width: 202px; 
+margin: 0px 0 0 0;
+background: white url('../images/searchbox_bg.gif?1') repeat-x top;
+padding-left: 2px;
+vertical-align: middle;
+}
+#search input.search-submit {
+border: none;
+width: 9px;
+height: 12px;
+background: url('../images/lyon-search-submit.gif?1') no-repeat;
+margin: 0px 0 0 3px;
+vertical-align: middle;
+}
+
+.gsc-results {
+color: black;
+}
+.form_field_file {
+  color: white;
+}
+body .add-article {
+  margin-top: 15px;
+  display: inline-block !important;
+}
