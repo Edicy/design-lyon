@@ -28,7 +28,7 @@
 </div>
                 <span class="date">{{ article.created_at | format_date:"short" }}</span>&nbsp;&nbsp;<span class="blog-info">{{ article.author.name }}. {{"comments_for_count"|lc}}: <span class="edy-site-blog-comments-count">{{ article.comments_count }}</span></span>
           
-          <div class="blog-inner clearfix">
+          <div class="blog-inner clearfix" data-search-indexing-allowed="true">
             
             {% editable article.excerpt %}
             <div id="articlebody">
