@@ -1,5 +1,7 @@
 .clearfix:after {
-  content: "."; display: block;height: 0;clear: both;font-size: 1px;line-height: 1px;visibility: hidden;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 html, body {
@@ -184,7 +186,6 @@ h3 {
     }
 #container-left-inner2 {
   width: 514px;
-  *overflow-x: hidden;
 }
     
   /* container-right */
@@ -193,7 +194,7 @@ h3 {
       float: left;
       width: 366px;
       min-height: 10px;
-      overflow-x: hidden;
+      
     }
     
     * html #container-right {
