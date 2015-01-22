@@ -12,6 +12,14 @@ body {
   background: black url('../images/bg.jpg?1') no-repeat top center;
 }
 
+.content-hyphenate {
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
 h1, h2 {
    color: #328bcf;
 }

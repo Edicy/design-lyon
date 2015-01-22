@@ -28,7 +28,7 @@
          <h1><a href="{{ article.url }}">{{ article.title }}</a></h1>
           <span class="date">{{ article.created_at | format_date:"short" }}</span>&nbsp;&nbsp;<span class="blog-info">{{ article.author.name }}. <a href="{{ article.url }}#comments">{{ "comments_for_count"|lc}}: {{article.comments_count}}</a></span>
           
-                <div class="blog-inner clearfix">
+                <div class="blog-inner clearfix content-hyphenate">
                  {{ article.excerpt }} <a href="{{ article.url }}">{{"read_more"|lc}}</a>
                 </div>
               </div> <!-- //blog -->
@@ -53,7 +53,7 @@
      
    </div> <!-- //container -->
    
-   <div id="footer" class="clearfix">
+   <div id="footer" class="clearfix content-hyphenate">
             <div id="edicy">{% loginblock %}{{ "footer_login_link" | lc }}{% endloginblock %}</div>
      {% content name="footer" xpage="true" %}
    </div> <!-- //footer -->

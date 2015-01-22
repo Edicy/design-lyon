@@ -21,7 +21,7 @@
        </div> <!-- //header -->
        
        <div id="container-left-inner">
-         <div id="container-left-inner2" class="clearfix">
+         <div id="container-left-inner2" class="clearfix content-hyphenate">
          {% include "Submenu" %}
          <div data-search-indexing-allowed="true">{% content %}</div>
          </div>
@@ -44,7 +44,7 @@
      
    </div> <!-- //container -->
    
-   <div id="footer" class="clearfix">
+   <div id="footer" class="clearfix content-hyphenate">
             <div id="edicy">{% loginblock %}{{ "footer_login_link" | lc }}{% endloginblock %}</div>
      {% content name="footer" xpage="true" %}
    </div> <!-- //footer -->
